@@ -1,0 +1,94 @@
+[Root]
+Most Recent Package=vbIconMaker
+
+
+[Package|vbIconMaker|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\WINDOWS\Desktop\vbIconMaker
+
+[Package|vbIconMaker|Configure DAO ISAMs]
+Applicable=No
+
+[Package|vbIconMaker|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|vbIconMaker|Files Found]
+
+[Package|vbIconMaker|Files Released]
+
+[Package|vbIconMaker|Missing Dependency Information]
+
+[Package|vbIconMaker|Out-of-Date Dependency Information]
+
+[Package|vbIconMaker|Files Added]
+
+[Package|vbIconMaker|Files Removed]
+
+[Package|vbIconMaker|Files In Project]
+D:\1VB Neil's Programs\Icon Maker-TruColor\vbIconMaker.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\Comctl32.ocx=Yes
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|vbIconMaker|Configure Registry Files]
+Applicable=No
+
+[Package|vbIconMaker|Configure Remote Servers]
+Applicable=No
+
+[Package|vbIconMaker|Install Locations]
+D:\1VB Neil's Programs\Icon Maker-TruColor\vbIconMaker.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|vbIconMaker|Configure Shared Files]
+Applicable=Yes
+D:\1VB Neil's Programs\Icon Maker-TruColor\vbIconMaker.exe=No
+
+[Package|vbIconMaker|Distribution]
+Type=single
+Size=
+Title=vbIconMaker
+
+[Package|vbIconMaker|IconGroups]
+Group0=vbIconMaker
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|vbIconMaker|vbIconMaker]
+Icon1=vbIconMaker.exe
+Title1=vbIconMaker
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|vbIconMaker|Package]
+PackageFolder=c:\WINDOWS\Desktop\vbIconMaker
+ProjectFolder=D:\1VB Neil's Programs\Icon Maker-TruColor
+ServerSideCab=
+File1=c:\WINDOWS\Desktop\vbIconMaker\setup.exe
+File2=c:\WINDOWS\Desktop\vbIconMaker\Setup.Lst
+File3=c:\WINDOWS\Desktop\vbIconMaker\vbIconMaker.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
